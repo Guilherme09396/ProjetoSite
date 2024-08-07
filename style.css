@@ -547,3 +547,7 @@ html, body{
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
   }
+
+  .slide-show ul li img {
+    height: 300px;
+  }
