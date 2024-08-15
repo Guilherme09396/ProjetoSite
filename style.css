@@ -12,6 +12,10 @@
     text-decoration: none;
 }
 
+a {
+    color: black
+}
+
 html {
     width: 100vw;
     height: 100vh;
@@ -31,7 +35,8 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1f1e1f;
+    background-color: #f89d13;
+    /* 1f1e1f */
     position: fixed;
     padding-left: 30rem;
 }
@@ -46,9 +51,20 @@ html {
 
 
 .logo h3 {
-   color: white;
+   color: black;
    font-size: 1.6rem;
 
+}
+
+#localizacao {
+    background-color: #1f1e1f;
+}
+
+#localizacao h2 {
+    font-size: 6rem;
+   margin-bottom: 1rem;
+   font-family: 'Indie Flower', cursive;
+   color: #fff;
 }
 
 
@@ -69,7 +85,7 @@ html {
     padding-bottom: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 500;
@@ -78,8 +94,8 @@ html {
 
 .content .list-menu li a:hover{
     background-color: #333333;
-    border-bottom: 4px solid #ffc506;  
-    color: #ffc506;
+    border-bottom: 4px solid #f89d13;  
+    color: #f89d13;
 }
 
 /* Primeira Seção */
@@ -87,7 +103,7 @@ html {
 .first-section{
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(./img/fundopizza.jpg);
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(./img/lasanha.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -107,7 +123,7 @@ html {
 }
 
 .first-section h1{
-    color: #ffc506;
+    color: #f89d13;
     font-size: 6rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
@@ -128,7 +144,7 @@ html {
     height: 60px;
     cursor: pointer;
     text-transform: uppercase;
-    background-color: #ffc506;
+    background-color: #f89d13;
     border-radius: 10px;
     color: black;
     font-weight: 700;
@@ -137,9 +153,9 @@ html {
 }
 
 .btn button:hover {
-    border: 1px solid #ffc506;
+    border: 1px solid #f89d13;
     background-color: transparent;
-    color: #ffc506;
+    color: #f89d13;
 }
 
 .btn {
@@ -228,7 +244,7 @@ html {
     width: 200px;
     height: 35px;
     margin-top: 0.5rem;
-    background-color: #ffc506;
+    background-color: #f89d13;
     border-radius: 5px;
     text-transform: uppercase;
     cursor: pointer;
@@ -322,7 +338,7 @@ html {
 }
 
 .contatos-secao div:hover{
-    color: #ffc506;
+    color: #f89d13;
 }
 
 footer {
